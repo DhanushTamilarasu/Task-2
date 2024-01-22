@@ -1,0 +1,121 @@
+body{
+    background-image: url(Natureimg.avif);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+}
+h1{
+    font-size: x-large;
+    color: aliceblue;
+    text-align: center;
+    font-style: normal;
+}
+h2{
+    font-size: x-large;
+    color: aliceblue;
+    text-align: center;
+    font-style: normal;
+}
+p{
+    font-size: x-large;
+    color: aliceblue;
+    text-align: center;
+}
+label{
+    padding: 5px;
+    font-size: x-large;
+    color: aliceblue;
+    text-align: center;
+    font-style: normal;
+    text-transform: capitalize;
+    /* margin-left: 5%; */
+}
+.dropbtn {
+    background-color: #75ddb7;
+    width: 30%;
+    padding: 5px;
+    border-radius: 10px;
+}
+.dropbtn img{
+    background-color: #0b0c0c;
+    width: 40%;
+    border-radius: 20px;
+}
+
+.dropdown {
+    display:inline-block;
+  }
+  
+  .dropdown-content {
+    display:none;
+    position: absolute;
+    background-color: #fffdfd;
+    border-radius: 20px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #06fcf0;
+    border-style: double;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    align-content: center;
+    width: 50%;
+}
+  
+  .dropdown:hover .dropbtn {
+    background-color: #06f6c2;
+}
+.mySlides {display:none;}
+.sym img{
+    border-radius: 30px;
+    height: 10%;
+    width: 17%;
+}
+.stylerw{
+    border-radius: 20px;
+    display: inline-flex;
+    border-style: double;
+    background-color: rgb(243, 238, 238);
+}
+.stylerw p{
+    border-radius: 20px;
+    border-style: groove;
+    font-size: large;
+    color: #0b0b0b;
+}
+.stylerw h1{
+    font-size: large;
+    color: #0b0b0b;
+}
+.matrixs{
+     border-radius: 15px;
+     box-shadow: #06fcf0;
+     font-size: large;
+     color: #0e0e0e;
+     background-color: antiquewhite;
+     
+    }
+.next1 p{
+        border-radius: 20px;
+        display: inline-flex;
+        border-style: double;
+        background-color: rgb(243, 238, 238);
+        color: #0b0b0b;
+    }
+.row{
+        border-radius: 20px;
+        display: inline-flex;
+        border-style: double;
+        background-color: rgb(243, 238, 238);
+        color: #0b0b0b;
+        font-size: 15px;
+    }
